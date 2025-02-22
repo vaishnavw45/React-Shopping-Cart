@@ -1,8 +1,9 @@
-import React, { useEffect, useState } from 'react'
+import { useEffect, useState } from 'react'
 import { useParams } from 'react-router-dom'
 import { items } from './Data';
 import Product from './Product';
 
+// eslint-disable-next-line react/prop-types
 const SearchItem = ({cart, setCart}) => {
   // console.log(useParams())
   const {term} = useParams();
